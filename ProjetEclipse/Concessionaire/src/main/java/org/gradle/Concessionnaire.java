@@ -19,7 +19,7 @@ public class Concessionnaire {
 	
 	public boolean Achat(String marque, int prix){
 		Voiture voiture = new Voiture(marque, prix);
-		if(this.stock.ajouter(voiture)){
+		if(this.stock.Ajouter(voiture)){
 			this.bilan-=prix;
 			this.nboperation++;
 			return true;

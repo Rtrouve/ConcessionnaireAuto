@@ -1,3 +1,5 @@
+package org.gradle;
+
 import java.util.ArrayList;
 
 public class Concessionnaire {
