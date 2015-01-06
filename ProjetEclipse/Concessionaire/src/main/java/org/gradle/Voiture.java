@@ -5,6 +5,11 @@ public class Voiture {
 	protected String modele;
 	protected int prix;
 	
+	public Voiture(){
+		this.modele="";
+		this.prix=0;
+	}
+	
 	public Voiture(String modele,int prix){
 		this.modele=modele;
 		this.prix=prix;
