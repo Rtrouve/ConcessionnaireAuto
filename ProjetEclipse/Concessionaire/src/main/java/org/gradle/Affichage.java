@@ -2,10 +2,10 @@ package org.gradle;
 import java.util.Scanner;
 
 public class Affichage {
-	private Concessionaire c;
+	private Concessionnaire c;
 	private Stock s;
 	
-	public Affichage(Concessionaire conce){
+	public Affichage(Concessionnaire conce){
 		c=conce;
 		s=conce.getStock();
 	}
@@ -71,7 +71,7 @@ public class Affichage {
 		return new Client(nom,adresse);
 	}
 	
-	public Concessionaire getConcessionaire(){
+	public Concessionnaire getConcessionnaire(){
 		return c;
 	}
 }
