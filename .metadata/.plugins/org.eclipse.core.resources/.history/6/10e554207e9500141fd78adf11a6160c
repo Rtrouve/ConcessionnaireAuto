@@ -1,5 +1,3 @@
-package org.gradle;
-
 public class Client {
 	private String nom;
 	private Voiture voiture;
