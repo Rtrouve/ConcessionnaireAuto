@@ -44,10 +44,6 @@ public class Concessionnaire {
 		}
 	}
 	
-	public String bilan(){
-		
-	}
-
 	@Override
 	public String toString() {
 		return "Concessionnaire [nom=" + nom + ", bilan=" + bilan

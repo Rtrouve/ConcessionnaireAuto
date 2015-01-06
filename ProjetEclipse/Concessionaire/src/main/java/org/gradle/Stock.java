@@ -5,20 +5,26 @@ import java.util.ArrayList;
 
 public class Stock {
 
-	protected ArrayList<Voiture> voiture;
+	protected ArrayList<Voiture> Listevoiture;
 	protected int limite;
 	
 	public Stock(int limitStock){
-		this.voiture=new ArrayList<Voiture>(limitStock);
+		this.Listevoiture=new ArrayList<Voiture>(limitStock);
 		this.limite=limitStock;
 	}
 	
-	public ArrayList<Voiture> getVoiture() {
-		return voiture;
+	public Voiture getVoiture(String marque) {
+		for(int i=0; i<this.Listevoiture.size(); i++){
+			if(this.Listevoiture.get(i).getModele()==marque){
+				Voiture voiture = this.Listevoiture.get(i);
+				return voiture;
+			}
+		}
+		return null;
 	}
 
 	public void setVoiture(ArrayList<Voiture> voiture) {
-		this.voiture = voiture;
+		this.Listevoiture = voiture;
 	}
 
 	public int getLimite() {
@@ -31,15 +37,15 @@ public class Stock {
 	
 	@Override
 	public String toString() {
-		return "Stock [voiture=" + voiture + ", limite=" + limite + "]";
+		return "Stock [voiture=" + Listevoiture + ", limite=" + limite + "]";
 	}
 
 	public boolean Ajouter(Voiture voiture){
-		if(this.voiture.size()==this.limite)
+		if(this.Listevoiture.size()==this.limite)
 			return false;
 		
 		else{
-		this.voiture.add(voiture);
+		this.Listevoiture.add(voiture);
 		return true;
 		}
 	}
