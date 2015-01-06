@@ -1,0 +1,14 @@
+package org.gradle;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class ClientTest {
+	 public void canConstructAClient(){
+		 
+	Client client = new Client("Name", "Une adresse");
+	 assertEquals("Name", client.getNom());
+	 assertEquals("Une adresse", client.getAdresse());
+	 
+	 }
+
+}
