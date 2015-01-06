@@ -1,5 +1,8 @@
 package org.gradle;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 
 public class testStockVoiture{
 
