@@ -44,6 +44,13 @@ public class Concessionnaire {
 		}
 	}
 	
+<<<<<<< HEAD
+=======
+	public String bilan(){
+		return "Bilan :"+this.bilan;
+	}
+
+>>>>>>> origin/master
 	@Override
 	public String toString() {
 		return "Concessionnaire [nom=" + nom + ", bilan=" + bilan

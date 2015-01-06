@@ -34,4 +34,7 @@ public class Client {
 	public void setAdresse(String adresse) {
 		this.adresse = adresse;
 	}
+	public String toString(){
+		return "[Nom : "+nom+ ", Adresse : "+adresse+", Voiture achetée : "+voiture+"]";
+	}
 }
