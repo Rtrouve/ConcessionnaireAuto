@@ -5,7 +5,7 @@ public class Client {
 	private Voiture voiture;
 	private String adresse;
 	
-	public Client(String nom, String Adresse){
+	public Client(String nom, String adresse){
 		this.nom = nom;
 		this.adresse = adresse;
 		this.voiture = new Voiture();
