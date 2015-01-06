@@ -7,7 +7,7 @@ public class Client {
 	
 	public Client(String nom, String adresse){
 		this.nom = nom;
-		this.adresse = adresse;
+		this.adresse = Adresse;
 		this.voiture = new Voiture();
 	}
 
