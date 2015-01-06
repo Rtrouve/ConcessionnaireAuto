@@ -57,7 +57,7 @@ public class Affichage {
 				System.out.println("Erreur");
 			}
 		}else if(reponse==3){
-			c.bilan();
+			System.out.println(c.bilan());
 		}else{
 			System.out.println("Erreur");
 		}
