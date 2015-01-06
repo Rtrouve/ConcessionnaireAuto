@@ -10,7 +10,7 @@ public class Concessionnaire {
 	private ArrayList<Client> ListeClient;
 	
 	public Concessionnaire(String nom, int limiteStock){
-		this.nom = "Paris13";
+		this.nom = nom;
 		this.stock = new Stock(limiteStock);
 		this.bilan = 0;
 		this.nboperation = 0;
