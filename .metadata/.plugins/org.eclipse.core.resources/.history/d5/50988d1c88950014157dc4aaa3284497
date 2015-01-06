@@ -7,7 +7,7 @@ public class StockTest {
 	public void canConstructAStock()
 	{
 		Stock S = new Stock(40);
-		assertEquals(40,S.getLimite());
+		assertEquals(30,S.getLimite());
 	}
 
 }

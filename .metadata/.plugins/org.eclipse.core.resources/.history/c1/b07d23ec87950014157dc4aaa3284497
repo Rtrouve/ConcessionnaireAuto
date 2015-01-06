@@ -3,12 +3,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ClientTest {
-	@Test
 	 public void canConstructAClient(){
 		 
 	Client client = new Client("Name", "Une adresse");
-	assertEquals("Name", client.getNom());
-	assertEquals("Une adresse", client.getAdresse());
+	 assertEquals("Name", client.getNom());
+	 assertEquals("Une adresse", client.getAdresse());
 	 
 	 }
 

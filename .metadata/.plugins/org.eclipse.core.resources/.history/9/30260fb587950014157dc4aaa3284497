@@ -19,8 +19,6 @@ public class VoitureTest {
 		assertEquals(25000, uneVoiture.getPrix());
 		
 		}
-	
-	
 	 
 	
 
