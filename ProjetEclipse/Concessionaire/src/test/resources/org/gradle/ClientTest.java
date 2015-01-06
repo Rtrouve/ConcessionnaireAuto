@@ -8,6 +8,7 @@ public class ClientTest {
 	Client client = new Client("Name", "Une adresse");
 	 assertEquals("Name", client.getNom());
 	 assertEquals("Une adresse", client.getAdresse());
+	 
 	 }
 
 }
