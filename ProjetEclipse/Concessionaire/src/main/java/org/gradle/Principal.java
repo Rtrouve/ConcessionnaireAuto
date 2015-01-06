@@ -11,7 +11,7 @@ public class Principal {
 		aff.affichageStock();// ou affichageMenu puis option 1)(Consulter le stock), on voit la voiture dans le stock
 		aff.affichageMenu();//ensuite ou peut refaire l'option 2)(Achat/Vente), mais maintenant vente (avec la même marque 
 		//que lors de l'achat sinon un message d'erreur s'affiche, puis rentrer le client qui veut l'acheter
-    aff.affichageMenu();// option 3)(Bilan), pour afficher la balance (après l'achat et la vente de voiture)
+		 aff.affichageMenu();// option 3)(Bilan), pour afficher la balance (après l'achat et la vente de voiture)
 
 	}
 
