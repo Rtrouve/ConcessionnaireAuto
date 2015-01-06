@@ -77,16 +77,6 @@ public class Concessionnaire {
 	public ArrayList<Client> getListeClient() {
 		return ListeClient;
 	}
-	
-	public Client getClient(String nom){
-		for(int i=0; i<this.ListeClient.size(); i++){
-			if(this.ListeClient.get(i).getNom()==nom){
-				Client client = this.ListeClient.get(i);
-				return client;
-			}
-		}
-		return null;
-	}
 
 	public void setNom(String nom) {
 		this.nom = nom;

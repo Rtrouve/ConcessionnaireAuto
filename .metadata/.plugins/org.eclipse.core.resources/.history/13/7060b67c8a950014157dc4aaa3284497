@@ -61,6 +61,6 @@ public class Stock {
 		}
 	}
 	public ArrayList<Voiture> getStock(){
-		return Listevoiture;
+		return ListeVoiture;
 	}
 }
