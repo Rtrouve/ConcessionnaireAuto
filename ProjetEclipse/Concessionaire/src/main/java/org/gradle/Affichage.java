@@ -13,11 +13,11 @@ public class Affichage {
 	public void affichageStock(){
 		System.out.println(c.toString());
 		System.out.println("Le stock est :");
-		if(s.getLimite().isEmpty()){
+		if(s.getStock().isEmpty()){
 			System.out.println("vide");
 		}
 		else{
-			for (Voiture v : s.getLimite()){
+			for (Voiture v : s.getStock()){
 				System.out.println("- "+v.toString());
 			}
 		}
