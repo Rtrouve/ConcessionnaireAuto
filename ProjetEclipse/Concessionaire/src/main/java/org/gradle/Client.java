@@ -35,6 +35,6 @@ public class Client {
 		this.adresse = adresse;
 	}
 	public String toString(){
-		return "[Nom : "+nom+ ", Adresse : "+adresse+", Voiture achetée : "+voiture;
+		return "[Nom : "+nom+ ", Adresse : "+adresse+", Voiture achetée : "+voiture+"]";
 	}
 }
