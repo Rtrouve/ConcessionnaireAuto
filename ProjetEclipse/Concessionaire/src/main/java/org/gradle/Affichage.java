@@ -27,26 +27,26 @@ public class Affichage {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Que voulez-vous faire ?\n1) Consultez le stock\n2) Achat/Vente de voiture\n3) Bilan");
-		String reponse = sc.nextLine();
-		if(reponse=="1"){
+		String reponse = Integer.parseInt(sc.nextLine());
+		if(reponse==1){
 			this.affichageStock();
-		}else if(reponse=="2"){
+		}else if(reponse==2){
 			System.out.println("Vous voulez :\n1) Acheter une voiture\n2)Vendre une voiture");
-			reponse = sc.nextLine();
-			if(reponse=="1"){
+			reponse = Integer.parseInt(sc.nextLine());
+			if(reponse==1){
 				System.out.println("Quelle marque ?");
 				String marque = sc.nextLine();
 				System.out.println("Quelle prix ?");
-				int prix = sc.nextInt();
+				int prix = Integer.parseInt(sc.nextLine()));
 				if(c.Achat(marque,prix))
 					System.out.println("Voiture "+marque+" achetée à "+prix+" euros.");
 				else
 					System.out.println("Erreur:Voiture "+marque+" non achetée");
-			}else if(reponse=="2"){
+			}else if(reponse==2){
 				System.out.println("Quelle marque ?");
 				String marque = sc.nextLine();
 				System.out.println("Quelle prix ?");
-				int prix = sc.nextInt();
+				int prix = Integer.parseInt(sc.nextLine());
 				Voiture v =new Voiture(marque,prix);
 				Client cl = questionClient();
 				if(c.Vente(v,cl))
@@ -56,7 +56,7 @@ public class Affichage {
 			}else{
 				System.out.println("Erreur");
 			}
-		}else if(reponse=="3"){
+		}else if(reponse==3){
 			c.bilan();
 		}else{
 			System.out.println("Erreur");
