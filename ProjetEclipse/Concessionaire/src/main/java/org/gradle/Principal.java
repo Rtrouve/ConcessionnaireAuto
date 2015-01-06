@@ -3,7 +3,7 @@ package org.gradle;
 public class Principal {
 
 	public static void main(String[] args) {
-		Concessionaire c = new Concessionaire ("Test",20);
+		Concessionnaire c = new Concessionnaire ("Test",20);
 		Affichage aff = new Affichage(c);
 		
 		aff.affichageMenu();// option 1)(Consulter le stock) le stock est vide
