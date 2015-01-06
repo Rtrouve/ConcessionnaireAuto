@@ -1,4 +1,5 @@
 package org.gradle;
+import java.util.Scanner;
 
 public class Affichage {
 	private Concessionaire c;
