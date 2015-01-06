@@ -52,11 +52,11 @@ public class Stock {
 	
 	public boolean Supprimer(Voiture voiture){
 		
-		if (this.Listevoiture.isEmpty())
+		if (this.voiture.isEmpty())
 			return false;
 		
 		else{
-		this.Listevoiture.remove(voiture);
+		this.voiture.remove(voiture);
 		return true;
 		}
 	}
